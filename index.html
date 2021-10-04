@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>タイトル</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="jquery.simpleTicker.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery.simpleTicker.css" media="screen" />
+<style>
+* { box-sizing: border-box; }
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, img, p, dfn {
+  margin: 0;
+  padding: 0;
+}
+body {
+	background: url(job.jpg) no-repeat center top;
+	background-size: 1650px 800px;
+font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+#ticker {
+	height: 44px!important;
+    position: absolute;
+    width: calc(100vw - 60px);
+    top: 80px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: #f6fcff;
+    border: 1px solid #d0e6f1;
+    border-radius: 100px;
+}
+
+.ticker ul {
+    width: 98%;
+    position: relative;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.ticker ul li {
+	padding-bottom: 20px;
+}
+#ticker ul li.qText {
+	letter-spacing: .15em;
+	font-style: italic;
+	color: #0f3681;
+}
+#ticker ul li img {
+	height: 30px;
+	margin-right: 15px;
+	border-radius: 100px;
+}
+.aText {
+	position: relative;
+	top: -10px;
+}
+.who {
+	position: relative;
+	top: -10px;
+	padding-right: 20px;
+	color: #00bad0;
+}
+</style>
+<script type="text/javascript">
+$(function(){
+  $.simpleTicker($('#ticker'),{'effectType':'slide'});
+});
+</script>
+</head>
+<body>
+<main>
+<div id="ticker" class="ticker">
+  <ul>
+    <li class="qText">Q. 得意料理はなんですか？</li>
+    <li><a href="https://careerbaito.com/job/40581?pickup"><img src="https://static.careerbaito.com/picture/corporation/2966/210_210/wQkLJzpj1632813482.jpg"></a><span class="who">（代表者：出縄 良人）</span><span class="aText">拷問レベルにまずいカレーライスが大得意です。幸い今のところ死者は出ておりません。</li>
+    <li class="qText">Q. コロナになってから取り組み始めたことなどありますか？</span></li>
+    <li><a href="https://careerbaito.com/job/35867?pickup"><img src="https://static.careerbaito.com/picture/corporation/2487/210_210/8SgVgQcY1567154162.jpg"></a><span class="who">（代表者：長谷川　敦弥）</span><span class="aText">断捨離をするようになりました。思い切りがよすぎてスリッパが片方だけ行方不明になったりします。</span></li>
+    <li class="qText">Q. 誰にも負けないバイトエピソードなどありましたら教えてください。</li>
+    <li><a href="https://careerbaito.com/job/38823?pickup"><img src="https://static.careerbaito.com/picture/corporation/2920/210_210/GlN2f0hz1622706302.jpg"></a><span class="who">（教育メンター：山田太郎）</span><span class="aText">新人が3日で辞めることで有名なバイト先で4年間続きました…今でも私が最高記録保持者です笑</li>
+    <li class="qText">Q. どんな学生時代でしたか？</span></li>
+    <li><a href="https://careerbaito.com/job/38648?pickup"><img src="https://static.careerbaito.com/picture/corporation/2150/210_210/D4haqiZj1545020018.jpg"></a><span class="who">（取締役 執行役員）</span><span class="aText">ずっとインターンで武者修行のような毎日でした。ただ、その頃からおしゃれには無頓着すぎて社員さんによく突っ込まれてました笑</span></li>
+    <li class="qText">Q. どういう人と仲良くなる傾向がありますか？</li>
+    <li><a href="https://careerbaito.com/job/40343?pickup"><img src="https://static.careerbaito.com/picture/corporation/2332/210_210/qvoHmxFC1543294393.jpg"></a><span class="who">（代表：田中 啓太）</span><span class="aText">人の頑張りを自分のことのように喜べる人かなあ。だからなのか、スポーツバーでサッカー応援するのも大好きです笑</span></li>
+  </ul>
+</div>
+</main>
+</body>
+</html>
